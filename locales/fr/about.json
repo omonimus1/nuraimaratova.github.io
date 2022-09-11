@@ -1,0 +1,5 @@
+{
+  "title": "À propos de moi",
+  "introduction": "Je m'appelle {{name}} et j'ai {{age}} ans.",
+  "description": "Développeur front-end kazakh, enthousiaste à l'idée d'apprendre de nouvelles façons d'améliorer l'expérience utilisateur. Désireux d'apprendre, d'améliorer et de partager des connaissances avec mon équipe. J'aime collaborer pour offrir le meilleur produit qui puisse exister. Toujours à la recherche de partager un excellent espace de travail avec des personnes qui aiment ce qu'elles font autant que moi.\n\nMes compétences et intérêts sont :\nJavaScript, TypeScript, React, Redux, Angular, Rxjs, Styled Components, git et amélioration des performances."
+}

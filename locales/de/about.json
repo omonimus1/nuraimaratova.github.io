@@ -1,0 +1,5 @@
+{
+  "title": "Über mich",
+  "introduction": "Mein Name ist {{name}} und ich bin {{age}} Jahre alt.",
+  "description": "Kasachischer Front-End-Entwickler, begeistert davon, neue Wege zur Verbesserung der Benutzererfahrung zu lernen. Bereit zu lernen, sich zu verbessern und Wissen mit meinem Team zu teilen. Ich arbeite gerne zusammen, um das beste Produkt anzubieten, das es geben kann. Immer auf der Suche nach einem großartigen Arbeitsplatz mit Menschen, die genauso viel Spaß an dem haben, was sie tun wie ich.\n\nMeine Fähigkeiten und Interessen sind:\nJavaScript, TypeScript, React, Redux, Angular, Rxjs, Styled Components, Git und Leistungsverbesserung."
+}
