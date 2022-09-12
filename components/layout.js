@@ -8,7 +8,6 @@ import React from "react";
 export default function Layout({ children }) {
     let router = useRouter();
     let now = new Date();
-    const [value, setValue] = React.useState("b");
 
     const onSelectChange = (e) => {
         const locale = e.target.value;
@@ -40,17 +39,7 @@ export default function Layout({ children }) {
             <main className={classes.content}>{children}</main>
 
             <footer className={classes.footer}>
-                <p style={{textAlign: 'center'}}>© {now.getFullYear()}</p>
-
-                {/*<ul>*/}
-                {/*    {router.locales.map((locale) => (*/}
-                {/*        <li key={locale}>*/}
-                {/*            <Link href={router.asPath} locale={locale}>*/}
-                {/*                <a>{locale}</a>*/}
-                {/*            </Link>*/}
-                {/*        </li>*/}
-                {/*    ))}*/}
-                {/*</ul>*/}
+                <p style={{display: 'flex', justifyContent: 'center'}}>© {now.getFullYear()}</p>
             </footer>
         </div>
     );

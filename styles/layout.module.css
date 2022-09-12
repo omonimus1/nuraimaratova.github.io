@@ -1,12 +1,12 @@
 .wholeBlock {
     background-image: linear-gradient(#000428, #004e92);
     color: white;
+    height: 100%;
 }
 .header {
     background-image: linear-gradient(#dc2430, #000428);
     padding: 32px;
 }
-/*(#7b4397, #dc2430);*/
 
 .nav {
     display: flex;
