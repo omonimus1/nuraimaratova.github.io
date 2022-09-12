@@ -29,8 +29,8 @@ export default function Layout({ children }) {
                         <a>About</a>
                     </Link>
                     <select name="languages" id="language-select" onChange={onSelectChange}>
-                        {router.locales.map((locale) => (
-                            <option value={locale}>{locale}</option>
+                        {router.locales.map((locale, idx) => (
+                            <option key={idx} value={locale}>{locale}</option>
                         ))}
                     </select>
                 </nav>
